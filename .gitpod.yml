@@ -1,0 +1,5 @@
+image: gitpod/workspace-elixir
+  
+tasks:
+  - init: mix compile
+    command: iex -S mix
